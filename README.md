@@ -1,2 +1,41 @@
-# ai-ecommerce-visual-workbench
-AI assisted e-commerce visual workbench for product prompt generation and image workflow testing.
+# AI 电商视觉接单工作台
+
+这是一个面向电商产品图生成与交付流程的 AI 辅助工作台，用于将产品名称、平台、用途、比例、背景、构图、光影、风格等信息标准化，并生成适合 AI 生图模型使用的提示词和候选图片。
+
+## 项目背景
+
+在电商产品图制作过程中，经常会遇到需求描述不清晰、提示词不稳定、不同平台图片风格要求不同、生成结果难以统一管理等问题。
+
+本项目尝试用 AI Agent 和大模型辅助完成电商视觉素材生产流程，将产品信息、图片用途、平台场景、构图风格、光影要求等内容整理成结构化参数，再生成更稳定的 AI 生图提示词。
+
+## 核心功能
+
+- 产品信息标准化
+- 电商图片需求整理
+- AI 生图提示词生成
+- 多平台图片风格选择
+- 图片生成结果保存
+- 项目与客户交付流程测试
+- 本地 API Key 与 Base URL 配置
+- 多模型调用流程测试
+
+## 技术与工具
+
+本项目使用 Streamlit 构建本地 Web 页面，并结合 AI 模型 API 进行提示词生成与图片生成流程测试。
+
+实践过程中使用过的工具包括：
+
+- VS Code
+- Cursor
+- Claude Code
+- OpenClaw
+- ChatGPT
+- DeepSeek API
+- AI 图像生成模型
+
+## 运行方式
+
+安装依赖：
+
+```bash
+pip install streamlit requests
