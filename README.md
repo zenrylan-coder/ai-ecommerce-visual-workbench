@@ -39,3 +39,25 @@
 
 ```bash
 pip install streamlit requests
+启动项目：
+
+streamlit run local_image_panel.py
+
+浏览器访问：
+
+http://localhost:8501
+使用说明
+
+打开页面后，可以在左侧填写 API Key、Base URL、主模型、图像模型、图片尺寸、质量和输出格式等参数。
+
+在主页面中填写产品名称、产品英文描述、平台、用途、比例、背景、构图、光影和风格后，系统会根据这些信息辅助整理图片需求，并用于生成更适合电商场景的 AI 图片提示词。
+
+项目目的
+
+该项目用于测试 AI Agent 在网页开发、提示词生成、图像工作流、电商素材生产中的实际效果。
+
+后续计划接入 Xiaomi MiMo 系列模型，与 DeepSeek V4 Pro、GPT、Claude、Gemini 等模型进行对比，重点测试中文指令理解、长上下文项目分析、代码生成质量、网页样式调整、Agent 协作能力和自动化脚本生成效果。
+
+安全说明
+
+本项目不包含真实 API Key。使用时需要用户在本地页面中自行填写 API Key 和 Base URL。
